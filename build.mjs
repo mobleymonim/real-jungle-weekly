@@ -572,7 +572,8 @@ ${NW ? `
 <section>
   <h2>다음 주 매치업 예상 <small>Week ${NW.week} · ${esc(NW.dates)} (계산)</small></h2>
   <div class="matches">${nextCards}</div>
-  <p class="note">각 팀의 Week ${NW.week} 첫날 로스터와 선수별 경기당 평균(시즌 평균과 최근 한 달 평균을 반씩), 그 주 NBA 일정으로 계산한 예상입니다. 날마다 경기가 있는 선수 중 상위 ${NW.activeSlots}명이 출전한다고 보고, IL 슬롯이나 결장(Out) 선수는 뺐습니다. FG%·FT%는 예상 성공/시도 개수로 계산했고, TO는 적은 쪽이 이깁니다. "박빙"은 FG%·FT% .010 이내, 나머지는 5%(최소 3개) 이내 차이입니다. 이후 영입·부상·출전 시간 변화는 반영되지 않습니다.</p>
+  <p class="note">각 팀의 Week ${NW.week} 첫날 로스터와 선수별 경기당 평균(시즌 평균과 최근 한 달 평균을 반씩), 그 주 NBA 일정으로 계산한 예상입니다. 날마다 경기가 있는 선수 중 상위 ${NW.activeSlots}명이 출전한다고 보고, IL 슬롯이나 결장(Out) 선수는 뺐습니다. FG%·FT%는 예상 성공/시도 개수로 계산했고, TO는 적은 쪽이 이깁니다. "박빙"은 FG%·FT% .010 이내, 나머지는 5%(최소 3개) 이내 차이입니다. 이후 영입·부상·출전 시간 변화는 반영되지 않습니다.</p>${NW.note ? `
+  <p class="note">${esc(NW.note)}</p>` : ''}
 </section>` : ''}
 
 <footer>

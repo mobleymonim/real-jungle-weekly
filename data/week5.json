@@ -817,5 +817,798 @@
  },
  "collected": "2026-11-26",
  "commissioner": "Soohyup",
- "source": "yahoo-api"
+ "source": "yahoo-api",
+ "nextWeek": {
+  "week": 6,
+  "dates": "Nov 23 - 29, 2026",
+  "start": "2026-11-23",
+  "end": "2026-11-29",
+  "activeSlots": 10,
+  "basis": "Yahoo average_season + average_lastmonth (50/50), ESPN schedule",
+  "teams": {
+   "Ogeum tripleS 🎼⭐": {
+    "gp": 43,
+    "out": [
+     "Dejounte Murray",
+     "Lauri Markkanen"
+    ],
+    "s": [
+     0.484225568868858,
+     0.8080218068535828,
+     69,
+     613,
+     208,
+     136,
+     34,
+     33,
+     81
+    ]
+   },
+   "Wonhwa's Wondrous Team": {
+    "gp": 35,
+    "out": [
+     "Joel Embiid",
+     "Jimmy Butler III",
+     "Dylan Harper",
+     "Paolo Banchero"
+    ],
+    "s": [
+     0.46186883343006363,
+     0.7861688587187107,
+     67,
+     558,
+     180,
+     128,
+     36,
+     20,
+     71
+    ]
+   },
+   "Bundang H2H ❤️🍓💙": {
+    "gp": 45,
+    "out": [
+     "Tyrese Haliburton",
+     "Jalen Duren"
+    ],
+    "s": [
+     0.4658587987355111,
+     0.8240804996530189,
+     69,
+     629,
+     214,
+     165,
+     39,
+     32,
+     92
+    ]
+   },
+   "Gangseo Supersonics": {
+    "gp": 39,
+    "out": [
+     "Zach LaVine"
+    ],
+    "s": [
+     0.4622913661652588,
+     0.7961595273264401,
+     61,
+     617,
+     237,
+     150,
+     35,
+     24,
+     83
+    ]
+   },
+   "DH Boyax": {
+    "gp": 43,
+    "out": [
+     "Ja Morant",
+     "RJ Barrett"
+    ],
+    "s": [
+     0.4689196108550946,
+     0.7561707805203471,
+     62,
+     633,
+     253,
+     175,
+     49,
+     21,
+     75
+    ]
+   },
+   "Sunil's Spectacular Team": {
+    "gp": 43,
+    "out": [
+     "Duncan Robinson",
+     "Chet Holmgren"
+    ],
+    "s": [
+     0.43321856820610233,
+     0.8409498207885303,
+     69,
+     528,
+     183,
+     130,
+     39,
+     26,
+     79
+    ]
+   },
+   "HelloJionHaeon": {
+    "gp": 44,
+    "out": [
+     "Aday Mara",
+     "Stephen Curry"
+    ],
+    "s": [
+     0.44393592677345545,
+     0.8188405797101453,
+     97,
+     633,
+     179,
+     151,
+     48,
+     18,
+     68
+    ]
+   },
+   "Midnight": {
+    "gp": 30,
+    "out": [
+     "Jaylen Brown",
+     "Evan Mobley",
+     "Miles McBride",
+     "Jaren Jackson Jr.",
+     "Kon Knueppel"
+    ],
+    "s": [
+     0.44359968968192404,
+     0.7868681605002604,
+     46,
+     407,
+     154,
+     105,
+     27,
+     16,
+     61
+    ]
+   },
+   "Jinhwan's Perfect Team": {
+    "gp": 37,
+    "out": [
+     "Jalen Smith",
+     "Cade Cunningham",
+     "Tobias Harris"
+    ],
+    "s": [
+     0.46823588964819046,
+     0.8175955780746199,
+     76,
+     535,
+     140,
+     138,
+     36,
+     17,
+     55
+    ]
+   },
+   "Yeouido Rehabs": {
+    "gp": 41,
+    "out": [
+     "Austin Reaves",
+     "Jusuf Nurkić",
+     "Jaylon Tyson"
+    ],
+    "s": [
+     0.4726602238046794,
+     0.7773553020701311,
+     55,
+     519,
+     243,
+     129,
+     38,
+     22,
+     72
+    ]
+   },
+   "sun's night night": {
+    "gp": 37,
+    "out": [
+     "De'Aaron Fox",
+     "Norman Powell",
+     "CJ McCollum",
+     "Kawhi Leonard"
+    ],
+    "s": [
+     0.46093655952810864,
+     0.7950561797752811,
+     45,
+     516,
+     201,
+     110,
+     36,
+     21,
+     63
+    ]
+   },
+   "Win Now": {
+    "gp": 45,
+    "out": [
+     "P.J. Washington",
+     "Grayson Allen"
+    ],
+    "s": [
+     0.4590457256461233,
+     0.7242441209406496,
+     63,
+     654,
+     260,
+     149,
+     42,
+     23,
+     84
+    ]
+   },
+   "SUNG MIN's Fine Team": {
+    "gp": 41,
+    "out": [
+     "Jerami Grant",
+     "Victor Wembanyama",
+     "Cameron Boozer"
+    ],
+    "s": [
+     0.47663986950949555,
+     0.810675182481752,
+     73,
+     570,
+     183,
+     142,
+     34,
+     14,
+     69
+    ]
+   },
+   "Te5Te2 daddy": {
+    "gp": 42,
+    "out": [
+     "OG Anunoby",
+     "Caleb Wilson",
+     "Anthony Edwards"
+    ],
+    "s": [
+     0.48307026476578424,
+     0.7403169014084509,
+     53,
+     516,
+     210,
+     121,
+     35,
+     22,
+     66
+    ]
+   }
+  },
+  "results": [
+   {
+    "a": "Ogeum tripleS 🎼⭐",
+    "b": "Wonhwa's Wondrous Team",
+    "cats": [
+     {
+      "c": "FG%",
+      "a": 0.484225568868858,
+      "b": 0.46186883343006363,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "FT%",
+      "a": 0.8080218068535828,
+      "b": 0.7861688587187107,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "3PTM",
+      "a": 69,
+      "b": 67,
+      "win": "a",
+      "close": true
+     },
+     {
+      "c": "PTS",
+      "a": 613,
+      "b": 558,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "REB",
+      "a": 208,
+      "b": 180,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "AST",
+      "a": 136,
+      "b": 128,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "ST",
+      "a": 34,
+      "b": 36,
+      "win": "b",
+      "close": true
+     },
+     {
+      "c": "BLK",
+      "a": 33,
+      "b": 20,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "TO",
+      "a": 81,
+      "b": 71,
+      "win": "b",
+      "close": false
+     }
+    ],
+    "score": [
+     7,
+     2,
+     0
+    ]
+   },
+   {
+    "a": "Bundang H2H ❤️🍓💙",
+    "b": "Gangseo Supersonics",
+    "cats": [
+     {
+      "c": "FG%",
+      "a": 0.4658587987355111,
+      "b": 0.4622913661652588,
+      "win": "a",
+      "close": true
+     },
+     {
+      "c": "FT%",
+      "a": 0.8240804996530189,
+      "b": 0.7961595273264401,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "3PTM",
+      "a": 69,
+      "b": 61,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "PTS",
+      "a": 629,
+      "b": 617,
+      "win": "a",
+      "close": true
+     },
+     {
+      "c": "REB",
+      "a": 214,
+      "b": 237,
+      "win": "b",
+      "close": false
+     },
+     {
+      "c": "AST",
+      "a": 165,
+      "b": 150,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "ST",
+      "a": 39,
+      "b": 35,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "BLK",
+      "a": 32,
+      "b": 24,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "TO",
+      "a": 92,
+      "b": 83,
+      "win": "b",
+      "close": false
+     }
+    ],
+    "score": [
+     7,
+     2,
+     0
+    ]
+   },
+   {
+    "a": "DH Boyax",
+    "b": "Sunil's Spectacular Team",
+    "cats": [
+     {
+      "c": "FG%",
+      "a": 0.4689196108550946,
+      "b": 0.43321856820610233,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "FT%",
+      "a": 0.7561707805203471,
+      "b": 0.8409498207885303,
+      "win": "b",
+      "close": false
+     },
+     {
+      "c": "3PTM",
+      "a": 62,
+      "b": 69,
+      "win": "b",
+      "close": false
+     },
+     {
+      "c": "PTS",
+      "a": 633,
+      "b": 528,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "REB",
+      "a": 253,
+      "b": 183,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "AST",
+      "a": 175,
+      "b": 130,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "ST",
+      "a": 49,
+      "b": 39,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "BLK",
+      "a": 21,
+      "b": 26,
+      "win": "b",
+      "close": false
+     },
+     {
+      "c": "TO",
+      "a": 75,
+      "b": 79,
+      "win": "a",
+      "close": false
+     }
+    ],
+    "score": [
+     6,
+     3,
+     0
+    ]
+   },
+   {
+    "a": "HelloJionHaeon",
+    "b": "Midnight",
+    "cats": [
+     {
+      "c": "FG%",
+      "a": 0.44393592677345545,
+      "b": 0.44359968968192404,
+      "win": "a",
+      "close": true
+     },
+     {
+      "c": "FT%",
+      "a": 0.8188405797101453,
+      "b": 0.7868681605002604,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "3PTM",
+      "a": 97,
+      "b": 46,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "PTS",
+      "a": 633,
+      "b": 407,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "REB",
+      "a": 179,
+      "b": 154,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "AST",
+      "a": 151,
+      "b": 105,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "ST",
+      "a": 48,
+      "b": 27,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "BLK",
+      "a": 18,
+      "b": 16,
+      "win": "a",
+      "close": true
+     },
+     {
+      "c": "TO",
+      "a": 68,
+      "b": 61,
+      "win": "b",
+      "close": false
+     }
+    ],
+    "score": [
+     8,
+     1,
+     0
+    ]
+   },
+   {
+    "a": "Jinhwan's Perfect Team",
+    "b": "Yeouido Rehabs",
+    "cats": [
+     {
+      "c": "FG%",
+      "a": 0.46823588964819046,
+      "b": 0.4726602238046794,
+      "win": "b",
+      "close": true
+     },
+     {
+      "c": "FT%",
+      "a": 0.8175955780746199,
+      "b": 0.7773553020701311,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "3PTM",
+      "a": 76,
+      "b": 55,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "PTS",
+      "a": 535,
+      "b": 519,
+      "win": "a",
+      "close": true
+     },
+     {
+      "c": "REB",
+      "a": 140,
+      "b": 243,
+      "win": "b",
+      "close": false
+     },
+     {
+      "c": "AST",
+      "a": 138,
+      "b": 129,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "ST",
+      "a": 36,
+      "b": 38,
+      "win": "b",
+      "close": true
+     },
+     {
+      "c": "BLK",
+      "a": 17,
+      "b": 22,
+      "win": "b",
+      "close": false
+     },
+     {
+      "c": "TO",
+      "a": 55,
+      "b": 72,
+      "win": "a",
+      "close": false
+     }
+    ],
+    "score": [
+     5,
+     4,
+     0
+    ]
+   },
+   {
+    "a": "sun's night night",
+    "b": "Win Now",
+    "cats": [
+     {
+      "c": "FG%",
+      "a": 0.46093655952810864,
+      "b": 0.4590457256461233,
+      "win": "a",
+      "close": true
+     },
+     {
+      "c": "FT%",
+      "a": 0.7950561797752811,
+      "b": 0.7242441209406496,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "3PTM",
+      "a": 45,
+      "b": 63,
+      "win": "b",
+      "close": false
+     },
+     {
+      "c": "PTS",
+      "a": 516,
+      "b": 654,
+      "win": "b",
+      "close": false
+     },
+     {
+      "c": "REB",
+      "a": 201,
+      "b": 260,
+      "win": "b",
+      "close": false
+     },
+     {
+      "c": "AST",
+      "a": 110,
+      "b": 149,
+      "win": "b",
+      "close": false
+     },
+     {
+      "c": "ST",
+      "a": 36,
+      "b": 42,
+      "win": "b",
+      "close": false
+     },
+     {
+      "c": "BLK",
+      "a": 21,
+      "b": 23,
+      "win": "b",
+      "close": true
+     },
+     {
+      "c": "TO",
+      "a": 63,
+      "b": 84,
+      "win": "a",
+      "close": false
+     }
+    ],
+    "score": [
+     3,
+     6,
+     0
+    ]
+   },
+   {
+    "a": "SUNG MIN's Fine Team",
+    "b": "Te5Te2 daddy",
+    "cats": [
+     {
+      "c": "FG%",
+      "a": 0.47663986950949555,
+      "b": 0.48307026476578424,
+      "win": "b",
+      "close": true
+     },
+     {
+      "c": "FT%",
+      "a": 0.810675182481752,
+      "b": 0.7403169014084509,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "3PTM",
+      "a": 73,
+      "b": 53,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "PTS",
+      "a": 570,
+      "b": 516,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "REB",
+      "a": 183,
+      "b": 210,
+      "win": "b",
+      "close": false
+     },
+     {
+      "c": "AST",
+      "a": 142,
+      "b": 121,
+      "win": "a",
+      "close": false
+     },
+     {
+      "c": "ST",
+      "a": 34,
+      "b": 35,
+      "win": "b",
+      "close": true
+     },
+     {
+      "c": "BLK",
+      "a": 14,
+      "b": 22,
+      "win": "b",
+      "close": false
+     },
+     {
+      "c": "TO",
+      "a": 69,
+      "b": 66,
+      "win": "b",
+      "close": true
+     }
+    ],
+    "score": [
+     4,
+     5,
+     0
+    ]
+   }
+  ],
+  "note": "이 예상은 Week 6이 시작된 뒤(11/26)에 계산해서, 선수 평균 기록과 결장 정보에 이번 주 초(11/23–25) 경기가 일부 반영돼 있습니다."
+ }
 }
