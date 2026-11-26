@@ -1,0 +1,398 @@
+{
+ "league": "Real Jungle",
+ "leagueId": 42428,
+ "week": 2,
+ "dates": "Oct 26 - Nov 1, 2026",
+ "cats": [
+  "FG%",
+  "FT%",
+  "3PTM",
+  "PTS",
+  "REB",
+  "AST",
+  "ST",
+  "BLK",
+  "TO"
+ ],
+ "teams": {
+  "Ogeum tripleS 🎼⭐": {
+   "mgr": "Soohyup",
+   "fgma": "220/468",
+   "ftma": "114/140",
+   "gp": 44,
+   "s": [
+    0.47,
+    0.814,
+    66,
+    620,
+    209,
+    111,
+    37,
+    33,
+    77
+   ]
+  },
+  "Win Now": {
+   "mgr": "세호",
+   "fgma": "203/448",
+   "ftma": "104/144",
+   "gp": 42,
+   "s": [
+    0.453,
+    0.722,
+    63,
+    573,
+    260,
+    126,
+    29,
+    21,
+    73
+   ]
+  },
+  "Bundang H2H ❤️🍓💙": {
+   "mgr": "병현",
+   "fgma": "215/465",
+   "ftma": "113/150",
+   "gp": 46,
+   "s": [
+    0.462,
+    0.753,
+    48,
+    591,
+    240,
+    181,
+    55,
+    35,
+    88
+   ]
+  },
+  "Jinhwan's Perfect Team": {
+   "mgr": "Jinhwan",
+   "fgma": "192/402",
+   "ftma": "93/117",
+   "gp": 40,
+   "s": [
+    0.478,
+    0.795,
+    75,
+    552,
+    175,
+    148,
+    33,
+    20,
+    54
+   ]
+  },
+  "DH Boyax": {
+   "mgr": "Donghyeon",
+   "fgma": "235/523",
+   "ftma": "121/161",
+   "gp": 46,
+   "s": [
+    0.449,
+    0.752,
+    61,
+    652,
+    265,
+    182,
+    51,
+    20,
+    88
+   ]
+  },
+  "HelloJionHaeon": {
+   "mgr": "donghwan",
+   "fgma": "209/479",
+   "ftma": "122/141",
+   "gp": 42,
+   "s": [
+    0.436,
+    0.865,
+    91,
+    631,
+    177,
+    146,
+    49,
+    21,
+    96
+   ]
+  },
+  "Gangseo Supersonics": {
+   "mgr": "Woongjin",
+   "fgma": "235/504",
+   "ftma": "96/120",
+   "gp": 41,
+   "s": [
+    0.466,
+    0.8,
+    78,
+    644,
+    239,
+    164,
+    26,
+    24,
+    90
+   ]
+  },
+  "SUNG MIN's Fine Team": {
+   "mgr": "SUNG MIN",
+   "fgma": "212/460",
+   "ftma": "84/105",
+   "gp": 43,
+   "s": [
+    0.461,
+    0.8,
+    66,
+    574,
+    205,
+    125,
+    31,
+    30,
+    56
+   ]
+  },
+  "Midnight": {
+   "mgr": "Mark",
+   "fgma": "197/412",
+   "ftma": "102/129",
+   "gp": 43,
+   "s": [
+    0.478,
+    0.791,
+    59,
+    555,
+    176,
+    132,
+    26,
+    18,
+    70
+   ]
+  },
+  "Te5Te2 daddy": {
+   "mgr": "Teodad",
+   "fgma": "232/462",
+   "ftma": "90/121",
+   "gp": 39,
+   "s": [
+    0.502,
+    0.744,
+    56,
+    610,
+    221,
+    94,
+    42,
+    31,
+    80
+   ]
+  },
+  "sun's night night": {
+   "mgr": "sun",
+   "fgma": "194/390",
+   "ftma": "86/113",
+   "gp": 41,
+   "s": [
+    0.497,
+    0.761,
+    55,
+    529,
+    182,
+    104,
+    58,
+    12,
+    75
+   ]
+  },
+  "Sunil's Spectacular Team": {
+   "mgr": "Sunil",
+   "fgma": "214/509",
+   "ftma": "111/129",
+   "gp": 44,
+   "s": [
+    0.42,
+    0.86,
+    86,
+    625,
+    202,
+    140,
+    59,
+    29,
+    74
+   ]
+  },
+  "Yeouido Rehabs": {
+   "mgr": "Junnyung",
+   "fgma": "207/435",
+   "ftma": "110/136",
+   "gp": 47,
+   "s": [
+    0.476,
+    0.809,
+    51,
+    575,
+    249,
+    117,
+    34,
+    24,
+    81
+   ]
+  },
+  "Wonhwa's Wondrous Team": {
+   "mgr": "Wonhwa",
+   "fgma": "200/467",
+   "ftma": "126/153",
+   "gp": 46,
+   "s": [
+    0.428,
+    0.824,
+    62,
+    588,
+    232,
+    184,
+    36,
+    27,
+    95
+   ]
+  }
+ },
+ "matchups": [
+  [
+   "Ogeum tripleS 🎼⭐",
+   "Win Now"
+  ],
+  [
+   "Bundang H2H ❤️🍓💙",
+   "Jinhwan's Perfect Team"
+  ],
+  [
+   "DH Boyax",
+   "HelloJionHaeon"
+  ],
+  [
+   "Gangseo Supersonics",
+   "SUNG MIN's Fine Team"
+  ],
+  [
+   "Midnight",
+   "Te5Te2 daddy"
+  ],
+  [
+   "sun's night night",
+   "Sunil's Spectacular Team"
+  ],
+  [
+   "Yeouido Rehabs",
+   "Wonhwa's Wondrous Team"
+  ]
+ ],
+ "standings": [
+  [
+   "Gangseo Supersonics",
+   "12-5-1"
+  ],
+  [
+   "Sunil's Spectacular Team",
+   "12-6-0"
+  ],
+  [
+   "Ogeum tripleS 🎼⭐",
+   "12-6-0"
+  ],
+  [
+   "DH Boyax",
+   "10-7-1"
+  ],
+  [
+   "Wonhwa's Wondrous Team",
+   "10-7-1"
+  ],
+  [
+   "Bundang H2H ❤️🍓💙",
+   "10-7-1"
+  ],
+  [
+   "Jinhwan's Perfect Team",
+   "10-8-0"
+  ],
+  [
+   "SUNG MIN's Fine Team",
+   "8-9-1"
+  ],
+  [
+   "Te5Te2 daddy",
+   "8-10-0"
+  ],
+  [
+   "Midnight",
+   "8-10-0"
+  ],
+  [
+   "Win Now",
+   "8-10-0"
+  ],
+  [
+   "HelloJionHaeon",
+   "6-11-1"
+  ],
+  [
+   "Yeouido Rehabs",
+   "5-13-0"
+  ],
+  [
+   "sun's night night",
+   "4-14-0"
+  ]
+ ],
+ "teamIds": {
+  "Ogeum tripleS 🎼⭐": 1,
+  "Bundang H2H ❤️🍓💙": 2,
+  "DH Boyax": 3,
+  "Gangseo Supersonics": 4,
+  "HelloJionHaeon": 5,
+  "Jinhwan's Perfect Team": 6,
+  "Midnight": 7,
+  "sun's night night": 8,
+  "SUNG MIN's Fine Team": 9,
+  "Sunil's Spectacular Team": 10,
+  "Te5Te2 daddy": 11,
+  "Win Now": 12,
+  "Yeouido Rehabs": 13,
+  "Wonhwa's Wondrous Team": 14
+ },
+ "photos": {
+  "Victor Wembanyama": 10094,
+  "Luka Dončić": 6014,
+  "Stephen Curry": 4612,
+  "Keaton Wagler": 10585,
+  "Tre Jones": 6433,
+  "Scoot Henderson": 10048,
+  "Terrence Shannon Jr.": 10280,
+  "Mikel Brown Jr.": 10588,
+  "Wendell Carter Jr.": 6018,
+  "Jaylon Tyson": 10279,
+  "Brandon Miller": 10104,
+  "Cooper Flagg": 10468,
+  "Ayo Dosunmu": 6580
+ },
+ "playerGp": {
+  "Keaton Wagler|Win Now": 3,
+  "Tre Jones|Jinhwan's Perfect Team": 3,
+  "Derrick Jones Jr.|Bundang H2H ❤️🍓💙": 3,
+  "Scoot Henderson|HelloJionHaeon": 3,
+  "Stephen Curry|HelloJionHaeon": 3,
+  "Terrence Shannon Jr.|SUNG MIN's Fine Team": 3,
+  "Victor Wembanyama|SUNG MIN's Fine Team": 3,
+  "De'Anthony Melton|SUNG MIN's Fine Team": 4,
+  "Mikel Brown Jr.|Midnight": 3,
+  "Matisse Thybulle|Te5Te2 daddy": 4,
+  "Wendell Carter Jr.|sun's night night": 2,
+  "Luka Dončić|Sunil's Spectacular Team": 3,
+  "Sandro Mamukelashvili|Sunil's Spectacular Team": 4,
+  "Jaylon Tyson|Yeouido Rehabs": 4,
+  "Ja'Kobe Walter|Yeouido Rehabs": 3,
+  "Brandon Miller|Sunil's Spectacular Team": 4,
+  "Cooper Flagg|Midnight": 3,
+  "Ayo Dosunmu|sun's night night": 4
+ },
+ "collected": "2026-11-02",
+ "commissioner": "Soohyup"
+}

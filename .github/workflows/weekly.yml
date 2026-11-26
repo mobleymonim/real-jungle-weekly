@@ -1,0 +1,90 @@
+# Real Jungle weekly report: every Monday 13:00–18:00 KST, collect the week that just ended from the
+# Yahoo Fantasy API, build the pages, publish them on GitHub Pages and send the link to Telegram.
+name: weekly-report
+
+on:
+  schedule:
+    # Mondays 04:00–09:00 UTC = 13:00–18:00 KST, hourly. The 13:00 run publishes the week that just
+    # ended and sends Telegram; later runs refresh the same pages with the latest stats.
+    - cron: '0 4-9 * * 1'
+  workflow_dispatch:
+    inputs:
+      week:
+        description: 'Week number (empty = last completed week)'
+        required: false
+      rebuild:
+        description: 'Rebuild and redeploy the site even if there is no new week'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: weekly-report
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install sharp (photo resizing)
+        run: npm install --no-save --no-package-lock sharp@0.33.5
+
+      - name: Yahoo credentials
+        env:
+          YAHOO_CLIENT_ID: ${{ secrets.YAHOO_CLIENT_ID }}
+          YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}
+          YAHOO_REFRESH_TOKEN: ${{ secrets.YAHOO_REFRESH_TOKEN }}
+        run: |
+          node -e "const fs=require('fs');const e=process.env;
+          fs.writeFileSync('credentials.json',JSON.stringify({client_id:e.YAHOO_CLIENT_ID,client_secret:e.YAHOO_CLIENT_SECRET,redirect_uri:'https://localhost:8080'}));
+          fs.writeFileSync('tokens.json',JSON.stringify({access_token:'',refresh_token:e.YAHOO_REFRESH_TOKEN,expires_at:0}));"
+
+      - name: Collect and build
+        id: ci
+        run: node ci.mjs ${{ github.event.inputs.week }} ${{ github.event.inputs.rebuild == 'true' && '--rebuild' || '' }}
+
+      - name: Commit new data and photos
+        if: steps.ci.outputs.published == 'true'
+        run: |
+          git config user.name "weekly-report bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data assets
+          git commit -m "Week ${{ steps.ci.outputs.week }} data" || echo "nothing to commit"
+          git push
+
+      - uses: actions/configure-pages@v5
+        if: steps.ci.outputs.deploy == 'true'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.ci.outputs.deploy == 'true'
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
+        if: steps.ci.outputs.deploy == 'true'
+
+      - name: Telegram
+        if: steps.ci.outputs.notify == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PAGE: ${{ steps.deployment.outputs.page_url }}
+          WEEK: ${{ steps.ci.outputs.week }}
+          DATES: ${{ steps.ci.outputs.dates }}
+        run: |
+          node -e "const e=process.env;if(!e.TELEGRAM_BOT_TOKEN||!e.TELEGRAM_CHAT_ID){console.log('telegram: no secrets, skipped');process.exit(0)}const base=e.PAGE.replace(/\/$/,'');
+          const text='🏀 Real Jungle Week '+e.WEEK+' 리포트 ('+e.DATES+')\n'+base+'/real-jungle-week'+e.WEEK+'.html\n\n리포트 모음: '+base+'/';
+          fetch('https://api.telegram.org/bot'+e.TELEGRAM_BOT_TOKEN+'/sendMessage',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({chat_id:e.TELEGRAM_CHAT_ID,text})}).then(r=>console.log('telegram',r.status));"

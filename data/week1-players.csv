@@ -1,0 +1,230 @@
+# Week 1 player stats as counted for each fantasy team (Yahoo matchup page, Totals view).
+# slot,player~nbaTeam,FG%,FT%,3PTM,PTS,REB,AST,ST,BLK,TO
+#Ogeum tripleS 🎼⭐
+SG,Keyonte George~UTA,.541,.696,9,65,13,25,3,0,14
+IL,Egor Dëmin~BKN,.308,1.000,6,29,8,9,3,0,7
+G,N. Alexander-Walker~ATL,.465,.750,11,63,12,12,6,1,5
+SF,Jaden McDaniels~MIN,.571,1.000,4,46,20,7,3,5,6
+PF,Lauri Markkanen~UTA,.413,.875,10,62,22,7,1,1,5
+--,Jalen Williams~OKC,.385,.800,3,41,14,10,3,2,4
+BN,Paul Reed~DET,.444,.000,0,8,8,2,0,3,3
+IL,Dejounte Murray~NOP,.490,.889,3,61,15,19,7,4,9
+BN,Matas Buzelis~CHI,.367,.840,2,45,16,5,1,3,8
+C,Day'Ron Sharpe~BKN,.526,.500,2,26,20,5,2,3,7
+F,Jabari Smith Jr.~HOU,.529,.889,7,51,15,5,4,3,3
+PG,Jamal Murray~DEN,.389,.706,8,48,13,9,2,1,6
+Util,Peyton Watson~CLE,.333,.833,2,19,4,6,3,2,7
+Util,Neemias Queta~BOS,.455,.636,1,18,10,3,1,5,3
+--,Morez Johnson Jr.~DAL,.500,.667,0,20,10,3,1,0,6
+#sun's night night
+G,Davion Mitchell~MIA,.514,.800,7,51,3,26,1,3,8
+BN,Kawhi Leonard~TOR,.324,1.000,4,39,15,3,7,1,4
+F,Cedric Coward~MEM,.529,-,4,22,18,4,1,1,2
+--,Javonte Green~DET,.000,1.000,0,2,3,0,0,1,0
+BN,Kelly Oubre Jr.~IND,.375,1.000,2,21,6,7,2,1,2
+BN,Norman Powell~CHI,.341,.852,7,58,11,5,6,0,6
+BN,Wendell Carter Jr.~ORL,.500,.750,0,9,10,2,1,1,2
+Util,Ayo Dosunmu~MIN,.516,.667,3,39,15,16,1,1,6
+Util,CJ McCollum~ATL,.545,.857,7,49,5,6,0,1,4
+Util,Jakob Poeltl~TOR,.500,.600,0,9,16,2,2,2,2
+PG,De'Aaron Fox~SAS,.600,.700,2,33,10,16,4,1,4
+SF,Herbert Jones~NOP,.333,-,0,2,3,1,1,0,2
+PF,Zion Williamson~NOP,.564,.842,2,62,9,7,8,2,8
+C,Kel'el Ware~MIL,.583,.600,3,37,20,2,2,2,6
+IL,Coby White~CHA,-,-,-,-,-,-,-,-,-
+IL,Brandon Ingram~LAC,-,-,-,-,-,-,-,-,-
+#Bundang Karina🔪
+BN,Darius Garland~LAC,.491,.692,9,72,5,21,2,0,18
+BN,Kris Dunn~LAC,.857,1.000,1,15,4,6,5,2,2
+G,Damian Lillard~POR,.467,1.000,8,44,8,8,3,0,3
+Util,Derrick Jones Jr.~LAC,.667,-,3,11,6,1,0,0,1
+SF,Franz Wagner~ORL,.439,.667,3,63,25,19,2,0,12
+BN,Ausar Thompson~DET,.462,1.000,0,15,14,10,2,1,6
+PF,Precious Achiuwa~SAC,.563,.364,1,41,21,3,6,3,2
+Util,Myles Turner~MIL,.391,1.000,4,23,13,5,0,7,9
+IL,Tyrese Haliburton~IND,.533,.917,6,65,12,29,4,2,8
+F,Anthony Black~ORL,.545,.500,5,18,3,5,2,0,0
+PG,Amen Thompson~HOU,.487,.867,2,53,31,14,4,2,5
+BN,Dillon Brooks~PHX,.435,.750,2,25,6,5,0,0,4
+Util,Tari Eason~HOU,.520,1.000,0,33,10,0,5,1,2
+C,Jarrett Allen~CLE,.722,.667,1,35,15,0,1,4,4
+IL,Jalen Duren~DET,.588,.857,0,26,15,4,2,2,2
+--,Maxime Raynaud~SAC,-,-,-,-,-,-,-,-,-
+--,Mitchell Robinson~BOS,1.000,.000,0,4,3,1,1,2,2
+--,Anfernee Simons~PHI,.286,.600,4,19,6,2,1,0,2
+#HelloJionHaeon
+PG,LaMelo Ball~MIN,.421,.714,11,48,8,19,6,0,6
+--,Cam Spencer~MEM,.556,-,3,13,2,1,0,0,2
+Util,Scoot Henderson~POR,.381,1.000,1,19,3,3,1,0,4
+BN,Desmond Bane~ORL,.333,.733,8,45,13,4,3,2,8
+PF,Saddiq Bey~NOP,.500,.833,7,47,12,4,1,1,5
+F,Devin Vassell~SAS,.385,1.000,4,28,11,9,5,0,5
+C,Aday Mara~OKC,.500,.500,0,11,8,2,1,3,4
+Util,Tyler Herro~MIL,.458,.778,10,71,13,16,2,0,8
+G,Donovan Mitchell~CLE,.529,.824,4,54,15,7,3,2,9
+SF,Trey Murphy III~NOP,.486,1.000,7,46,16,8,2,0,6
+BN,Bobby Portis Jr.~MIA,.440,1.000,6,31,20,3,4,1,3
+IL,Reed Sheppard~HOU,.421,-,6,22,8,11,4,0,6
+IL,Fred VanVleet~HOU,.333,.750,5,20,5,16,6,1,0
+BN,Stephen Curry~GSW,.400,1.000,5,47,4,5,2,0,2
+#DH Boyax
+PG,Jalen Brunson~NYK,.391,.700,4,68,10,11,2,3,8
+BN,Josh Hart~NYK,.412,.667,7,37,27,10,6,1,5
+IL,Ja Morant~POR,.524,.500,3,26,8,15,4,0,3
+IL,Alex Caruso~OKC,.556,.750,5,28,17,12,4,2,1
+PF,Alperen Şengün~HOU,.532,.778,5,69,27,19,1,1,10
+BN,Miles Bridges~PHX,.409,1.000,2,24,11,3,1,1,1
+C,Pascal Siakam~IND,.549,.524,7,74,18,10,2,0,8
+Util,RJ Barrett~TOR,.510,.588,1,63,15,9,3,1,2
+G,Darryn Peterson~UTA,.350,.750,0,17,7,5,3,1,2
+Util,Jaxson Hayes~UTA,.800,.500,0,9,5,1,1,0,0
+SG,Dyson Daniels~ATL,.618,.545,1,49,21,10,13,1,3
+BN,Derrick White~BOS,.500,-,5,29,5,14,2,0,5
+Util,Moussa Diabaté~CHA,.688,.800,0,26,21,6,8,1,6
+F,Deni Avdija~POR,.469,.688,3,44,17,10,3,0,5
+BN,Cameron Johnson~DEN,.667,-,1,5,2,1,0,0,0
+#Wonhwa's Wondrous Team
+BN,Kyrie Irving~DAL,.583,1.000,6,39,5,5,2,1,6
+SF,Luguentz Dort~ATL,.389,.857,4,24,11,5,3,0,3
+PG,Stephon Castle~SAS,.426,.500,11,58,18,14,4,0,7
+Util,Zaccharie Risacher~DAL,.400,1.000,1,15,10,4,6,2,4
+PF,Jayson Tatum~BOS,.408,1.000,3,49,13,18,3,0,4
+F,Julius Randle~BKN,.513,.778,5,66,21,19,1,1,11
+--,Brook Lopez~LAC,.645,.800,6,54,16,3,1,5,4
+BN,Ivica Zubac~IND,.600,.500,0,27,27,4,0,3,5
+--,Draymond Green~GSW,.375,-,1,7,9,14,1,2,9
+C,Joel Embiid~PHI,.392,.815,3,65,29,17,3,3,9
+Util,Daniel Gafford~DAL,.600,.500,0,14,12,3,4,4,4
+SG,Dylan Harper~SAS,.480,.889,4,60,15,9,2,0,4
+BN,Paul George~BOS,.500,.875,10,53,12,5,7,0,4
+IL,Jimmy Butler III~GSW,-,-,-,-,-,-,-,-,-
+IL,Paolo Banchero~ORL,.696,.700,3,49,13,15,2,0,8
+#Gangseo Supersonics
+BN,Devin Booker~PHX,.632,.941,2,66,11,9,1,2,6
+BN,Immanuel Quickley~TOR,.419,.786,7,54,8,15,3,0,3
+G,Jalen Green~PHX,.409,1.000,3,22,4,4,1,1,5
+IL,Cason Wallace~OKC,.400,-,3,19,7,4,7,0,3
+PF,Domantas Sabonis~SAC,.808,.867,1,56,52,21,3,0,12
+F,Andrew Wiggins~MIA,.357,1.000,2,23,11,4,2,2,3
+C,Donovan Clingan~POR,.500,.750,2,19,17,5,0,3,1
+PG,Zach LaVine~SAC,.492,.870,9,87,11,10,4,1,10
+Util,Derik Queen~NOP,.600,1.000,0,17,8,2,0,0,0
+Util,Darius Acuff Jr.~SAC,.329,.789,4,67,8,14,3,1,8
+--,Bilal Coulibaly~WAS,.429,1.000,1,18,10,0,2,1,2
+SF,Jalen Johnson~ATL,.444,.833,2,65,30,30,5,1,7
+BN,Anthony Davis~WAS,.415,.739,1,62,27,8,4,3,10
+Util,Payton Pritchard~BOS,.357,.800,3,21,5,5,0,0,2
+#Yeouido Rehabs
+BN,Austin Reaves~LAL,.639,.897,8,80,7,19,5,3,13
+SG,Kevin Durant~HOU,.561,.864,7,72,17,11,1,2,9
+BN,Josh Giddey~CHI,.269,.500,1,17,19,25,1,0,6
+F,Rui Hachimura~LAC,.263,.556,6,31,18,3,3,1,8
+BN,Bam Adebayo~MIA,.429,.667,3,39,21,11,6,1,7
+PF,Naz Reid~CHA,.471,.000,12,60,26,9,1,2,9
+--,Noah Clowney~BKN,.167,.700,2,13,9,1,0,1,2
+Util,Joan Beringer~MIN,.462,.750,0,15,21,1,1,0,3
+Util,Zach Edey~MEM,.636,.000,0,14,19,3,1,4,0
+C,Isaiah Hartenstein~OKC,.435,1.000,0,22,21,6,2,2,6
+SF,Jaylon Tyson~CLE,.389,.500,3,18,7,6,2,2,4
+G,Ryan Rollins~MIL,.351,.667,5,35,17,13,2,2,6
+IL,Nic Claxton~CHI,-,-,0,0,0,0,0,0,0
+PG,Jrue Holiday~POR,.375,.833,3,20,5,9,3,1,0
+IL,Jusuf Nurkić~UTA,-,-,-,-,-,-,-,-,-
+#Jinhwan's Perfect Team
+G,Tyrese Maxey~PHI,.466,.857,9,115,16,19,8,4,8
+SG,Cade Cunningham~DET,.489,.737,6,64,14,24,4,6,16
+--,Scotty Pippen Jr.~MEM,.444,.750,1,23,10,10,3,1,9
+SF,LeBron James~PHI,.429,.632,1,49,21,17,6,2,9
+BN,Jake LaRavia~LAL,.500,-,2,10,6,3,3,1,1
+F,Julian Champagnie~SAS,.429,1.000,7,26,8,4,6,6,1
+C,Jalen Smith~CHI,.516,.875,4,43,24,3,3,1,3
+BN,Tre Jones~CHI,.478,.917,1,34,8,11,3,0,1
+Util,Brandin Podziemski~GSW,.412,1.000,2,18,2,3,3,1,4
+PF,Tobias Harris~SAS,-,-,-,-,-,-,-,-,-
+Util,Kyshawn George~WAS,.450,.813,2,51,17,11,3,5,15
+PG,Trae Young~WAS,.366,.829,8,67,5,34,3,0,7
+BN,Gui Santos~GSW,.412,.583,3,24,13,5,2,1,1
+BN,Christian Braun~DEN,.476,.500,1,22,14,3,3,0,3
+#Te5Te2 daddy
+PG,VJ Edgecombe~PHI,.382,.714,6,37,24,9,5,2,2
+IL,Anthony Edwards~MIN,.443,.786,13,86,15,10,6,1,10
+IL,Jalen Suggs~ORL,.357,.750,1,24,15,17,6,1,9
+SF,Scottie Barnes~TOR,.351,1.000,2,51,23,13,6,3,12
+PF,OG Anunoby~NYK,.412,.818,6,52,18,10,1,1,7
+F,Caleb Wilson~CHI,.407,.789,4,67,24,4,6,4,12
+BN,Walker Kessler~LAL,.821,.444,0,50,24,4,3,9,4
+C,Onyeka Okongwu~ATL,.375,.857,2,26,15,10,1,1,3
+BN,Yaxel Lendeborg~GSW,.439,.667,8,56,25,13,4,1,8
+--,Ryan Kalkbrenner~CHA,.778,1.000,0,16,17,6,0,6,3
+--,Brayden Burries~MIL,.438,.636,4,25,11,5,1,0,2
+--,P.J. Washington~DAL,.476,.000,2,22,8,4,0,1,4
+Util,Khaman Maluach~PHX,-,-,-,-,-,-,-,-,-
+Util,Aaron Gordon~DEN,.444,.700,4,27,11,5,4,1,3
+#Midnight
+Util,Mikel Brown Jr.~BKN,.278,1.000,3,14,5,8,2,0,3
+PG,Collin Sexton~LAL,.412,1.000,2,18,3,3,3,0,3
+BN,Aaron Nesmith~IND,.412,.714,3,22,5,3,0,0,3
+F,Jaylen Brown~PHI,.425,.722,8,83,23,19,5,2,10
+BN,Karl-Anthony Towns~NYK,.622,.706,5,63,36,8,2,3,12
+IL,Kon Knueppel~CHA,-,-,0,0,0,0,0,0,0
+Util,Jaren Jackson Jr.~UTA,.513,.778,5,59,17,6,1,5,12
+SF,Keegan Murray~SAC,.294,1.000,0,14,6,1,2,0,1
+PF,Ace Bailey~UTA,.500,.500,4,35,24,9,0,4,4
+SG,Andrew Nembhard~IND,.552,.917,5,48,5,17,3,0,6
+G,Pelle Larsson~MIA,.333,1.000,2,24,12,9,3,1,3
+BN,Cooper Flagg~DAL,.609,.882,3,46,10,8,6,2,7
+C,Evan Mobley~CLE,.560,.700,3,38,18,6,2,3,2
+Util,Yves Missi~NOP,.889,.750,0,19,15,5,2,4,1
+IL,Kristaps Porziņģis~GSW,-,-,-,-,-,-,-,-,-
+#Win Now
+Util,Isaiah Collier~UTA,.455,.667,0,16,5,13,0,0,3
+--,Quentin Grimes~LAL,.533,.875,3,26,11,9,2,1,2
+PG,Shai Gilgeous-Alexander~OKC,.444,.857,7,83,14,12,5,5,4
+BN,Obi Toppin~IND,.667,-,4,16,6,2,0,0,1
+C,Collin Murray-Boyles~TOR,.375,.833,0,17,18,5,4,2,3
+Util,Michael Porter Jr.~BKN,.462,.778,9,64,16,2,9,0,6
+IL,Rudy Gobert~MIN,.714,.438,0,27,37,2,0,1,6
+SG,Jeremiah Fears~NOP,.290,.833,2,25,9,4,2,0,6
+BN,Keaton Wagler~LAC,.348,.895,6,39,13,12,4,0,9
+--,Deandre Ayton~WAS,.714,-,0,10,11,1,1,0,1
+BN,Collin Gillespie~PHX,.267,.250,2,11,5,11,6,0,6
+PF,Jaime Jaquez Jr.~MIL,.611,.684,5,62,26,11,0,0,10
+G,Grayson Allen~CHA,.517,.909,12,52,8,12,1,0,8
+F,Giannis Antetokounmpo~MIA,.571,.667,1,85,24,9,4,1,9
+Util,AJ Dybantsa~WAS,-,-,-,-,-,-,-,-,-
+#SUNG MIN's Fine Team
+PG,Ty Jerome~MEM,.563,.885,9,104,13,17,2,1,6
+--,Jared McCain~OKC,.391,1.000,7,27,3,3,2,0,5
+SG,Jaylen Wells~MEM,.615,.600,7,45,14,6,6,0,2
+Util,Jerami Grant~MEM,.308,.857,4,26,7,9,3,4,6
+PF,Cameron Boozer~MEM,.286,.933,6,48,35,15,2,2,8
+F,Jonathan Kuminga~MIN,.480,.500,7,36,13,9,7,1,1
+C,Victor Wembanyama~SAS,.365,.720,4,60,33,7,2,12,8
+--,Leonard Miller~CHI,.294,-,1,11,10,1,2,0,5
+BN,Nikola Jokić~DEN,.405,.833,4,48,22,15,3,4,8
+--,Keldon Johnson~SAS,.538,.667,1,17,10,4,2,0,2
+Util,Aaron Wiggins~ATL,.591,.500,7,35,6,3,3,1,1
+--,Bennedict Mathurin~NOP,.429,.833,1,24,9,6,1,0,2
+Util,Kyle Kuzma~MIL,.438,.667,3,33,27,10,3,0,6
+BN,Naji Marshall~DAL,.486,.400,3,41,10,17,5,0,6
+--,Bradley Beal~LAC,-,-,-,-,-,-,-,-,-
+--,Nikola Vučević~ORL,-,-,0,0,1,1,0,0,0
+#Sunil's Spectacular Team
+BN,Luka Dončić~LAL,.464,.889,15,103,22,24,5,1,21
+BN,Duncan Robinson~DET,.471,.800,15,59,6,7,3,0,5
+SG,Ajay Mitchell~OKC,.455,1.000,1,34,11,10,8,1,6
+SF,Brandon Miller~CHA,.297,.867,7,58,13,5,2,3,10
+C,Sandro Mamukelashvili~LAL,.538,.625,2,21,12,4,2,1,0
+F,Mikal Bridges~NYK,.217,-,0,10,9,6,1,2,1
+IL,Chet Holmgren~OKC,.407,1.000,2,36,28,4,2,9,5
+Util,Isaiah Jackson~LAC,.667,.250,0,29,17,7,6,2,7
+Util,John Collins~DET,.514,.000,7,45,23,2,1,3,3
+--,Andre Drummond~NYK,.667,-,0,4,3,2,0,0,0
+PF,Toumani Camara~POR,.619,1.000,9,37,5,4,2,0,1
+PG,James Harden~CLE,.300,.800,4,28,11,12,1,2,10
+BN,DeMar DeRozan~DEN,.474,.700,0,25,5,3,0,0,6
+Util,Alex Sarr~WAS,.500,1.000,1,23,15,10,2,3,3
+IL,Mark Williams~PHX,-,-,-,-,-,-,-,-,-
+--,Hannes Steinbach~CHA,-,-,0,0,0,0,0,0,0
+G,Dennis Schröder~CHA,.391,1.000,3,29,10,7,0,1,8
+--,Paul Reed~DET,.667,1.000,0,6,6,2,1,0,2

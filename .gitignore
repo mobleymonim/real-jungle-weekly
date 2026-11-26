@@ -1,0 +1,16 @@
+# Secrets: never commit
+credentials.json
+tokens.json
+pkce.json
+.env
+# Local browser profile (has Yahoo cookies)
+chrome-profile/
+node_modules/
+# Built output (GitHub Actions rebuilds the site every week)
+reports/
+site/
+# Full-size player cutouts (~1.5MB each); only the 480px copies are kept
+assets/players/*.png
+!assets/players/*-sm.png
+# Local agent state
+.omc/
