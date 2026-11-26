@@ -7,6 +7,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { api, items, merge } from './yahoo.mjs';
+import { projectWeek } from './project.mjs';
 
 const DIR = path.dirname(fileURLToPath(import.meta.url));
 const LK = 'nba.l.42428';
@@ -225,6 +226,12 @@ async function main() {
     if (r.ok) { fs.writeFileSync(path.join(DIR, 'assets', 'logos', `${t.id}.${ext}`), Buffer.from(await r.arrayBuffer())); console.log('logo saved:', t.name); }
   }
 
+  // Next week's matchup projection (project.mjs). A failure here only drops that section.
+  let nextWeek = null;
+  if (week < Number(meta.end_week || 99)) {
+    try { nextWeek = await projectWeek(week + 1); } catch (e) { console.log(`next-week projection skipped: ${e.message}`); }
+  }
+
   const out = {
     league: LEAGUE,
     leagueId: 42428,
@@ -242,6 +249,7 @@ async function main() {
     collected: kstNow().slice(0, 10),
     commissioner: teams.find((t) => t.commissioner)?.mgr || 'Soohyup',
     source: 'yahoo-api',
+    ...(nextWeek ? { nextWeek } : {}),
   };
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const base = path.join(OUT_DIR, `week${week}`);

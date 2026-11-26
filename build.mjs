@@ -98,6 +98,29 @@ const matchupCards = results.map(r => {
 </article>`;
 }).join('\n');
 
+// 다음 주 매치업 예상 (d.nextWeek from project.mjs): same card as the results, with projected totals.
+const NW = d.nextWeek || null;
+const nextCards = NW ? NW.results.map(r => {
+  const [w, l, t] = r.score, aWin = w > l, bWin = l > w;
+  const ta = NW.teams[r.a], tb = NW.teams[r.b];
+  const cell = (x, side) => `<td class="${x.win === side ? 'win' : ''}">${x[side] == null ? '–' : fmt(x[side], C.indexOf(x.c))}</td>`;
+  const cells = r.cats.map(x => `<tr><th scope="row">${x.c}${x.close ? ' <small class="close-tag">박빙</small>' : ''}</th>${cell(x, 'a')}${cell(x, 'b')}</tr>`).join('');
+  const gpTag = (mine, theirs) => `<span class="gp">예상 ${mine}경기${mine > theirs ? ` <em>+${mine - theirs}</em>` : ''}</span>`;
+  const outs = [[r.a, ta.out], [r.b, tb.out]].filter(([, o]) => o.length).map(([n, o]) => `<p class="note nw-out"><b>${esc(n)}</b> 결장·IL: ${o.map(esc).join(', ')}</p>`).join('');
+  const close = r.cats.filter(x => x.close).map(x => x.c);
+  return `<article class="match">
+  <header>
+    <div class="side ${aWin ? 'w' : ''}">${logo(r.a)}<div><b>${esc(r.a)}</b><small>${esc(mgr(r.a))}</small>${gpTag(ta.gp, tb.gp)}</div></div>
+    <div class="score"><span class="${aWin ? 'w' : ''}">${w}</span><i>–</i><span class="${bWin ? 'w' : ''}">${l}</span>${t ? `<em>${t} 무</em>` : close.length ? `<em>박빙 ${close.length}</em>` : ''}</div>
+    <div class="side r ${bWin ? 'w' : ''}">${logo(r.b)}<div><b>${esc(r.b)}</b><small>${esc(mgr(r.b))}</small>${gpTag(tb.gp, ta.gp)}</div></div>
+  </header>
+  <details><summary>카테고리별 예상 기록${close.length ? ` · 박빙: ${close.join(', ')}` : ''}</summary>
+    <div class="scroll"><table class="cat"><thead><tr><th></th><th>${esc(r.a)}</th><th>${esc(r.b)}</th></tr></thead><tbody><tr class="gp-row"><th scope="row">예상 경기 수</th><td>${ta.gp}</td><td>${tb.gp}</td></tr>${cells}</tbody></table></div>
+    ${outs}
+  </details>
+</article>`;
+}).join('\n') : '';
+
 // Games behind (승차) on category W-L-T: ((W_a - W_b) + (L_b - L_a)) / 2; ties count for neither side.
 const wl = rec => rec.split('-').map(Number);
 const gb = (a, b) => { const [wa, la] = wl(a), [wb, lb] = wl(b); return ((wa - wb) + (lb - la)) / 2; };
@@ -348,6 +371,8 @@ th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;verti
 thead th{font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
 .cat td{text-align:right}
 .cat thead th:not(:first-child){text-align:right}
+.close-tag{display:inline;font-size:11px;font-weight:600;color:var(--accent);margin-left:4px}
+.nw-out{padding:0 14px 8px}
 .cat td.win{color:var(--win);font-weight:600;background:var(--winbg)}
 .num{text-align:right;white-space:nowrap}
 .panel{background:var(--surface);border:1px solid var(--line);border-radius:6px;overflow-x:auto}
@@ -543,6 +568,12 @@ ${logoCss()}
   <div class="mvps">${flopCards}</div>
   <p class="note">한 경기만 뛴 선수가 뽑히지 않도록 이번 주 팀 라인업에서 ${MIN_GP_WORST}경기 이상 뛴 선수 중에서 골랐습니다. 카드의 스탯은 경기 수와 상관없이 비교할 수 있도록 1경기당 평균입니다(팀 라인업에서 뛴 경기 기준, 벤치 제외, FG%·FT%는 주간 기록). 매치업 결과와 상관없이 모든 팀에서 한 명씩 골랐고, 카드는 순위 순서입니다.${flopSkipped.length ? ` ${flopSkipped.map(esc).join(', ')}는 조건에 맞는 선수가 없어 뺐습니다.` : ''}</p>
 </section>
+${NW ? `
+<section>
+  <h2>다음 주 매치업 예상 <small>Week ${NW.week} · ${esc(NW.dates)} (계산)</small></h2>
+  <div class="matches">${nextCards}</div>
+  <p class="note">각 팀의 Week ${NW.week} 첫날 로스터와 선수별 경기당 평균(시즌 평균과 최근 한 달 평균을 반씩), 그 주 NBA 일정으로 계산한 예상입니다. 날마다 경기가 있는 선수 중 상위 ${NW.activeSlots}명이 출전한다고 보고, IL 슬롯이나 결장(Out) 선수는 뺐습니다. FG%·FT%는 예상 성공/시도 개수로 계산했고, TO는 적은 쪽이 이깁니다. "박빙"은 FG%·FT% .010 이내, 나머지는 5%(최소 3개) 이내 차이입니다. 이후 영입·부상·출전 시간 변화는 반영되지 않습니다.</p>
+</section>` : ''}
 
 <footer>
   <span>출처: Yahoo Fantasy Basketball, ${esc(d.league)} (League ID ${d.leagueId}) — Week ${d.week} 매치업 페이지, 순위 페이지, Transactions 페이지. ${d.collected} 수집. 팀 로고와 선수 사진: Yahoo Sports.</span>
