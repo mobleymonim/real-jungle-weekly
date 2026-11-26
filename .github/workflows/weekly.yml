@@ -72,6 +72,11 @@ jobs:
         with:
           path: site
 
+      # The uploaded artifact can take a few seconds to show up (2026-11-26: deploy found 0 artifacts).
+      - name: Wait for the Pages artifact
+        if: steps.ci.outputs.deploy == 'true'
+        run: sleep 20
+
       - id: deployment
         uses: actions/deploy-pages@v4
         if: steps.ci.outputs.deploy == 'true'
